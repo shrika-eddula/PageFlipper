@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eye-Tracking Book Reader</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        #viewer {
+            width: 60%;
+            height: 80%;
+            border: 2px solid #000;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+        img.visible {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="viewer">
+        <!-- Images added dynamically by JavaScript -->
+    </div>
+    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
