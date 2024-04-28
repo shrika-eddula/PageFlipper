@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const pages = [
-        'page1.webp'
+        'page1.webp',
+        'page2.jpeg'
         // Add more pages as needed
     ];
 
