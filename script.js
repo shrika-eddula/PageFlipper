@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var xprediction = data.x;
         var yprediction = data.y;
 
-        if (xprediction > window.innerWidth * 0.9 && currentPage < pages.length - 1) {
+        if (xprediction > window.innerWidth * 0.8 && yprediction > window.innerHeight * 0.8 && currentPage < pages.length - 1) {
             currentPage++;
             showPage(currentPage);
         }
